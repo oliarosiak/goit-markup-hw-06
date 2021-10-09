@@ -56,7 +56,7 @@ img {
   padding-bottom: 94px;
 }
 
-/* Header */
+/* - - - - - - - - - - - -  Header - - - - - -  */
 .header {
   border-bottom: 1px solid #ececec;
 }
@@ -165,7 +165,7 @@ a.header-logo {
   margin-right: 10px;
 }
 
-/* Hero */
+/* - - - - - - - - - - - -  Hero - - - - - -  */
 .hero {
   max-width: 1600px;
   margin: 0 auto;
@@ -214,7 +214,7 @@ a.header-logo {
   cursor: pointer;
 }
 
-/* About */
+/* - - - - - - - - - - - -  About - - - - - -  */
 
 .visually-hidden {
   position: absolute;
@@ -261,7 +261,7 @@ a.header-logo {
   line-height: 1.71;
 }
 
-/* Work & Team */
+/* - - - - - - - - - - - -  Work & Team - - - - - - */
 
 .work {
   padding-top: 0;
@@ -308,7 +308,7 @@ a.header-logo {
   background-color: rgba(47, 48, 58, 0.8);
 }
 
-/* Team */
+/* - - - - - - - - - - - -  Team - - - - - - - - - - - -  */
 .team {
   background-color: var(--secong-background-color);
 }
@@ -389,7 +389,7 @@ a.header-logo {
   background-color: var(--accent-color);
 }
 
-/* Clients */
+/* - - - - - - - - - - - -  Clients - - - - - - - - - - - -  */
 
 .clients-list {
   display: flex;
@@ -425,7 +425,7 @@ a.header-logo {
   border-color: var(--accent-color);
 }
 
-/* Footer */
+/* - - - - - - - - - - - -  Footer - - - - - - - - - - - -  */
 .footer {
   background-color: var(--main-backgroung-color);
   padding-top: 60px;
@@ -482,6 +482,12 @@ a.footer-logo {
   color: var(--accent-color);
 }
 
+/* - - - - - - - Footer social links - - - - - */
+.footer-social {
+  width: 206px;
+  margin-right: 93px;
+}
+
 .social-title {
   font-weight: 700;
   font-size: 14px;
@@ -523,7 +529,86 @@ a.footer-logo {
   background-color: var(--accent-color);
 }
 
-/* Modal window */
+/*  - - - - - - - - Footer email subscribe - - - - - - */
+.footer-mail-subscribe {
+  width: 570px;
+  margin: 0 auto;
+}
+
+.mail-subcribe-title {
+  margin-bottom: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  color: var(--third-text-color);
+}
+
+.mail-subcribe-form {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.mail-subcribe-field {
+  width: 358px;
+  padding: 15px 16px;
+
+  color: rgba(255, 255, 255, 0.6);
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  outline: none;
+}
+
+input::placeholder {
+  font-size: 16px;
+  line-height: 1.25;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.mail-subcribe-field:focus {
+  border: 1px solid var(--accent-color);
+}
+
+.mail-subscribe-btn {
+  width: 200px;
+  height: 50px;
+  margin-left: 12px;
+  padding: 0;
+
+  background: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border-width: 0;
+  cursor: pointer;
+}
+
+.mail-subscribe-block {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mail-subscribe-text {
+  margin-right: 10px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--third-text-color);
+}
+
+.mail-subscribe-icon {
+  width: 24px;
+  height: 24px;
+  fill: var(--third-text-color);
+}
+
+/* - - - - - - - - - - - -  Modal window - - - - - - - - - - - -  */
 .backdrop {
   position: fixed;
   top: 0;
@@ -565,6 +650,7 @@ a.footer-logo {
   background-color: var(--third-text-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
 }
 
 .modal-close-btn {
@@ -667,7 +753,7 @@ a.footer-logo {
   cursor: pointer;
 }
 
-/* - - - - - - - - - - - - - - - - - - - - - - Portfolio Page */
+/* - - - - - - - - - - - - - - Portfolio Page - - - - - - - - - - - -  */
 .filter {
   display: flex;
   justify-content: center;
