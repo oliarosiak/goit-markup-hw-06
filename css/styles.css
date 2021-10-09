@@ -559,16 +559,26 @@ a.footer-logo {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   outline: none;
+
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 input::placeholder {
   font-size: 16px;
   line-height: 1.25;
   color: rgba(255, 255, 255, 0.6);
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.mail-subcribe-field:hover,
 .mail-subcribe-field:focus {
   border: 1px solid var(--accent-color);
+}
+
+input:hover::placeholder,
+input:focus::placeholder {
+  color: var(--accent-color);
 }
 
 .mail-subscribe-btn {
@@ -577,19 +587,19 @@ input::placeholder {
   margin-left: 12px;
   padding: 0;
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border-width: 0;
   cursor: pointer;
-}
 
-.mail-subscribe-block {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mail-subscribe-text {
@@ -606,6 +616,21 @@ input::placeholder {
   width: 24px;
   height: 24px;
   fill: var(--third-text-color);
+}
+
+.mail-subscribe-btn:hover,
+.mail-subscribe-btn:focus {
+  background-color: var(--third-text-color);
+}
+
+.mail-subscribe-btn:hover .mail-subscribe-text,
+.mail-subscribe-btn:focus .mail-subscribe-text {
+  color: var(--accent-color);
+}
+
+.mail-subscribe-btn:hover .mail-subscribe-icon,
+.mail-subscribe-btn:focus .mail-subscribe-icon {
+  fill: var(--accent-color);
 }
 
 /* - - - - - - - - - - - -  Modal window - - - - - - - - - - - -  */
