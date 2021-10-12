@@ -890,19 +890,6 @@ input:focus::placeholder {
   cursor: pointer;
 }
 
-/* 
-
-.agreement-label {
-  width: 423px;  
-}
-
-
-
-
-
-
- */
-
 /* - - - - - - - - - - - - - - Portfolio Page - - - - - - - - - - - -  */
 .filter {
   display: flex;
