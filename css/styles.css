@@ -537,7 +537,9 @@ a.footer-logo {
 
 .mail-subcribe-title {
   margin-bottom: 20px;
+
   font-weight: 700;
+  font-size: 14px;
   text-transform: uppercase;
 
   color: var(--third-text-color);
@@ -553,8 +555,6 @@ a.footer-logo {
   width: 358px;
   padding: 15px 16px;
 
-  font-size: 16px;
-  line-height: 1.25;
   color: rgba(255, 255, 255, 0.6);
 
   background-color: transparent;
@@ -597,7 +597,7 @@ input:focus::placeholder {
   background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  border-width: 0;
+  border: none;
   cursor: pointer;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
