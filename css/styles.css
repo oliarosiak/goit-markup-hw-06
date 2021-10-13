@@ -4,6 +4,7 @@
   --second-text-color: #212121;
   --third-text-color: #ffffff;
   --accent-color: #2196f3;
+  --second-accent-color: #188ce8;
   --main-backgroung-color: #2f303a;
   --secong-background-color: #f5f4fa;
   --icons-color: #afb1b8;
@@ -888,6 +889,12 @@ input:focus::placeholder {
   border-radius: 4px;
   border: none;
   cursor: pointer;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.request-form-btn:hover {
+  background-color: var(--second-accent-color);
 }
 
 /* - - - - - - - - - - - - - - Portfolio Page - - - - - - - - - - - -  */
