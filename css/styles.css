@@ -439,7 +439,7 @@ a.header-logo {
 }
 
 .footer-address {
-  width: 231px;
+  flex-grow: 1;
   margin-right: 70px;
 }
 
@@ -485,7 +485,6 @@ a.footer-logo {
 
 /* - - - - - - - Footer social links - - - - - */
 .footer-social {
-  width: 206px;
   margin-right: 93px;
 }
 
@@ -531,11 +530,6 @@ a.footer-logo {
 }
 
 /*  - - - - - - - - Footer email subscribe - - - - - - */
-.footer-mail-subscribe {
-  width: 570px;
-  margin: 0 auto;
-}
-
 .mail-subcribe-title {
   margin-bottom: 20px;
 
@@ -694,7 +688,6 @@ input:focus::placeholder {
   align-items: center;
   width: 30px;
   height: 30px;
-  padding: 6px;
 
   fill: #000000;
 
@@ -834,9 +827,8 @@ input:focus::placeholder {
 }
 
 .agreement-label {
-  position: relative;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
 
   line-height: 1.87;
@@ -848,9 +840,7 @@ input:focus::placeholder {
 }
 
 .agreement-icon {
-  position: absolute;
-
-  left: 0;
+  margin-right: 7px;
   width: 16px;
   height: 15px;
 
